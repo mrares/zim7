@@ -7,7 +7,4 @@ Welcome to zim7, this is our repo
 
 This is in staging.
 
-And this is a commit to staging.
-
-Testing deploy script
-
+I think this is done.
