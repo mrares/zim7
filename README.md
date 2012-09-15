@@ -1,14 +1,14 @@
-zim7
-====
+Zim7 begun
+==========
+This is our repository, don't peek!
 
-zim7 begun
+# Purpose #
 
-Welcome to zim7, this is our repo
+None
 
-This is in staging.
+# ETA #
 
-And this is a commit to staging.
+None
 
-Testing deploy script
-
-
+# Technology used #
+- Symfony2
