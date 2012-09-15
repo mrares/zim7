@@ -1,8 +1,14 @@
-zim7
-====
+Zim7 begun
+==========
+This is our repository, don't peek!
 
-zim7 begun
+# Purpose #
 
-Welcome to zim7, this is our repo
+None
 
-Finally, some progress...
+# ETA #
+
+None
+
+# Technology used #
+- Symfony2
