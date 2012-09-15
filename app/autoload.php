@@ -2,8 +2,6 @@
 
 use Doctrine\Common\Annotations\AnnotationRegistry;
 
-echo var_dump("autoload");
-
 $loader = require __DIR__.'/../vendor/autoload.php';
 
 // intl
