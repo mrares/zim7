@@ -1,5 +1,7 @@
 <?php
 
+use Zimt\WebBundle\ZimtWebBundle;
+
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
@@ -19,6 +21,7 @@ class AppKernel extends Kernel
             new JMS\AopBundle\JMSAopBundle(),
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
+            new Zimt\WebBundle\ZimtWebBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

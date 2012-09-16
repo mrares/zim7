@@ -1,0 +1,12 @@
+{% extends 'ZimtWebBundle::layout.html.twig' %}
+
+{% block title %}Zimt - Login{% endblock %}
+
+{% block content_header '' %}
+
+{% block content %}
+    {% set version = constant('Symfony\\Component\\HttpKernel\\Kernel::MAJOR_VERSION') ~ '.' ~ constant('Symfony\\Component\\HttpKernel\\Kernel::MINOR_VERSION')%}
+
+    <h1>Welcome to our login screen!</h1>
+
+{% endblock %}
