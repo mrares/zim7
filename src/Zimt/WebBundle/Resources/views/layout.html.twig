@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <title>{% block title %}{% endblock %}</title>
         <link rel="icon" sizes="16x16" href="{{ asset('favicon.ico') }}" />
-        <link rel="stylesheet" href="{{ asset('bundles/zimtweb/css/default.css') }}" />
+        {# <link rel="stylesheet" href="{{ asset('bundles/zimtweb/css/default.css') }}" /> #}
     </head>
     <body>
         <div id="symfony-wrapper">
@@ -13,7 +13,7 @@
                     <em>Notice</em>: {{ flashMessage }}
                 </div>
             {% endfor %}
-            
+
             {% block content_header %}
                 <ul id="menu">
                     {% block content_header_more %}
